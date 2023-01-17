@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7 Assignment</title>
+</head>
+
+<body>
+    <h1>Chapter 7 - Forms</h1>
+    <form action="noaction.php">
+        <fieldset>
+            <legend>Your Details</legend>
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" name="MyName" id="Name">
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="MyEmail" id="Email">
+        </fieldset>
+        </div>
+        <fieldset>
+
+            <legend>Your Review</legend>
+            <div>
+                <label for="source">How did you hear about us?</label>
+                <select name="MySource" id="source">
+
+                    <option value="google" selected>Google</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="facebook">facebook</option>
+                </select>
+            </div>
+            <div>
+                Would you visit again?:
+                Yes <input type="radio" name="visit-again">
+                No <input type="radio" name="visit-again">
+                Maybe <input type="radio" name="visit-again">
+                <div>
+                    <div>
+                        <label for="comments">Comments:</label>
+                        <textarea name="" id="comments" cols="30" rows="10">Comments</textarea>
+                    </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
