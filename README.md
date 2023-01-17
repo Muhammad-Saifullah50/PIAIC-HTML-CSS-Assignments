@@ -1,4 +1,4 @@
 # PIAIC-HTML-CSS-Assignments
-PIAIC HTML and CSS Assignments 
-Muhammad Saifullah
-CNC Batch 36-37
+PIAIC HTML and CSS Assignments- 
+Muhammad Saifullah-
+CNC Batch 36
