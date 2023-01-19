@@ -65,7 +65,30 @@
             font-family: 'Sofia Sans', sans-serif;
             margin-top: 5px;
         }
-        
+
+
+        .map {
+            border: 2px solid black;
+            background-color: #c1cfc6;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            border-radius: 100px;
+            
+        }
+        .details{
+            text-align: center;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        .review{
+            text-align: center;
+            margin-top: 5px;
+            border-radius: 5px;
+
+        }
     </style>
 </head>
 
@@ -85,8 +108,8 @@
     </header>
 
     <form action="noaction.php">
-        <fieldset>
-            <legend>Your Details</legend>
+        <fieldset class="details">
+            <legend> <strong> Your Details</strong></legend>
             <div>
 
                 Name: <input type="text" name="MyName" id="Name">
@@ -97,9 +120,9 @@
                 Email: <input type="email" name="MyEmail" id="Email">
         </fieldset>
         </div>
-        <fieldset>
+        <fieldset class="review">
 
-            <legend>Your Review</legend>
+            <legend> <strong> Your Review</strong></legend>
             <div>
                 <p>
                     How did you hear about us?<select name="MySource" id="source">
@@ -127,8 +150,13 @@
 
         </fieldset>
     </form>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.478110646292!2d67.03085311446193!3d24.847515184060025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dd84b5b4d7b%3A0x37de022366f8096f!2sFrere%20Hall!5e0!3m2!1sen!2s!4v1674066749089!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.478110646292!2d67.03085311446193!3d24.847515184060025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dd84b5b4d7b%3A0x37de022366f8096f!2sFrere%20Hall!5e0!3m2!1sen!2s!4v1674066749089!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+    </div>
 
 
 
