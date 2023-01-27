@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Contacts-PanaCloud</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+
+
+        }
+
+        .topbar {
+            /* border: 2px solid red; */
+            height: 40px;
+            background: #202020;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        .lowerbar {
+            /* border: 2px solid blue; */
+            height: 60px;
+            margin-top: 2px;
+            font-family: 'Baloo Bhai 2', cursive;
+            border-bottom: 2px solid black;
+
+        }
+
+
+        .topbar ul li img {
+            width: 20px;
+            height: 20px;
+            filter: invert(100);
+        }
+
+        .topbar ul li {
+            display: inline-flex;
+
+
+        }
+
+        .logos {
+            margin-bottom: 5px;
+            display: inline-block;
+            position: absolute;
+            top: -4px;
+            /* border: 2px solid yellow; */
+        }
+
+        .phNumbers {
+            color: white;
+            /* border: 2px solid white; */
+            display: inline-block;
+            position: absolute;
+            left: 520px;
+            top: 12px;
+            width: 14%;
+            height: 20px;
+
+        }
+
+        .phNumbers img {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: -2px;
+        }
+
+        .phNumbers a {
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+            position: absolute;
+            bottom: 0px;
+
+        }
+
+        .phNumbers2 {
+            color: white;
+            /* border: 2px solid white; */
+            display: inline-block;
+            position: absolute;
+            left: 670px;
+            top: 12px;
+            width: 14%;
+            height: 20px;
+
+        }
+
+        .phNumbers2 img {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: -2px;
+        }
+
+        .phNumbers2 a {
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+            position: absolute;
+            bottom: 0px;
+
+        }
+
+        .btn {
+            position: absolute;
+            left: 850px;
+            width: 130px;
+            height: 30px;
+            top: 5px;
+            background-color: greenyellow;
+            border: 2px solid black;
+            font-family: 'Baloo Bhai 2', cursive;
+            border-radius: 5px;
+
+
+        }
+
+        /* styling for navbar */
+        .logo {
+            /* border: 2px solid blue; */
+            display: inline-block;
+            position: relative;
+            left: 40px;
+        }
+
+        .logo img {
+            width: 116px;
+            height: 55px;
+
+        }
+
+        .navbox {
+            /* border: 2px solid purple; */
+            display: inline-block;
+            position: relative;
+            left: 36px;
+            width: 84%;
+            top: -22px;
+        }
+
+        .navbar {
+            /* border: 2px solid yellow; */
+            text-align: center;
+            position: relative;
+            right: -94px;
+            width: 700px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 4px;
+            padding: 3px;
+            font-size: 14px;
+
+
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            color: rgb(30, 128, 11);
+            text-decoration: underline;
+        }
+
+        .top {
+            /* border: 2px solid red; */
+            display: inline-block;
+            text-align: center;
+            width: 50%;
+            position: relative;
+            left: 250px;
+            height: 75px;
+        }
+
+        .top h1 {
+            font-size: 40px;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: #298529;
+        }
+
+        .toptext {
+            display: inline-block;
+            /* border: 2px solid blue; */
+            width: 75%;
+            position: relative;
+            left: 120px;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .location {
+            display: block;
+            margin-left: 245px;
+        }
+
+        .location img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .location p {
+            display: inline-block;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 17px;
+        }
+
+        .num-email {
+            display: inline-block;
+            justify-content: space-evenly;
+        }
+
+        .num1 img,
+        .num2 img,
+        .email img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .num1 a,
+        .num2 a,
+        .email a {
+            text-decoration: none;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: black;
+            position: relative;
+            bottom: 6px;
+        }
+
+        .num1 {
+            position: absolute;
+            left: 190px;
+
+        }
+
+        .num2 {
+            position: absolute;
+            left: 420px;
+        }
+
+        .email {
+            position: absolute;
+            left: 665px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="topbar-logos">
+                <ul class="logos">
+                    <li><a href="https://www.facebook.com/panacloud/" target="_blank"><img src="facebook logo.png"
+                                alt="facebook logo"></li></a>
+                    <li><a href="https://twitter.com/Panacloud" target="_blank"><img src="twitter logo.png"
+                                alt="twitter logo"></li></a>
+                    <li><a href="https://www.google.com/search?q=panacloud&sxsrf=AJOqlzVb-qZPyEI4ZV3P_6a8aHJxwpCtaQ:1674542496436&source=lnms&sa=X&ved=2ahUKEwjq96T1zN_8AhXLDuwKHe5dD80Q_AUoAHoECAIQAg&biw=1024&bih=636&dpr=1"
+                            target="_blank"><img src="google.png" alt="google logo"></li></a>
+                    <li><a href="https://www.linkedin.com/company/panacloud-pvt-ltd/" target="_blank"><img
+                                src="linkedin logo.jpg" alt="linkedin logo"></li></a>
+                    <li><a href="https://www.youtube.com/@panacloudserverlesssaastra6459/featured" target="_blank"><img
+                                src="youtube logo.png" alt="youtube logo"></li></a>
+                </ul>
+            </div>
+            <div class="phNumbers">
+                <img src="phone icon.png" alt="phone"><a href="+92(304)36-6719">+92(304)36-6719
+                </a>
+            </div>
+
+            <div class="phNumbers2">
+                <img src="phone icon.png" alt="phone"><a href="+92(304)36-6719">+92(304)36-6719
+                </a>
+            </div>
+            <button class="btn">
+                CALL ME BACK
+            </button>
+        </div>
+
+        <div class="lowerbar">
+            <div class="logo">
+                <img src="logo.png" alt="PanaCloud">
+            </div>
+            <div class="navbox">
+                <ul class="navbar">
+                    <li> <a href="#">WHY US</a> </li>
+                    <li> <a href="#">ABOUT</a> </li>
+                    <li> <a href="#">SERVICES</a> </li>
+                    <li> <a href="#">PORTFOLIO</a> </li>
+                    <li> <a href="#">PROCESS</a> </li>
+                    <li> <a href="#">REVIEWS</a> </li>
+                    <li> <a href="#">OUR SKILLS</a> </li>
+                    <li> <a href="#">CONTACT US</a> </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="top">
+        <h1>OUR CONTACTS</h1>
+    </div>
+    <div class="toptext">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laborum assumenda obcaecati id quaerat
+            nam aut sunt. Ipsa veniam nisi repellat porro obcaecati.</p>
+    </div>
+    <div class="location">
+        <img src="location.png" alt="location">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
+    </div>
+    <div class="num1">
+        <img src="phone icon.png" alt="phone"><a id="num1" href="#">+92(304)36-6719
+        </a>
+    </div>
+    <div class="num2">
+        <img src="phone icon.png" alt="phone"><a id="num2" href="#">+92(304)36-6719
+        </a>
+    </div>
+    <div class="email">
+        <img src="email.png" alt="email"> <a id="email" href="#">email@website.com
+        </a>
+    </div>
+</body>
+
+</html>
