@@ -266,11 +266,15 @@
         }
 
         .end {
-            border: 2px solid green;
+            /* border: 2px solid green; */
+            padding: 50px 145px;
+            height: 280px;
+            background-color: #298529;
+
         }
 
         .end-logo {
-            border: 2px solid blue;
+            /* border: 2px solid blue; */
             display: inline-block;
         }
 
@@ -280,36 +284,94 @@
         }
 
         .end-text {
-            border: 2px solid purple;
+            /* border: 2px solid purple; */
             display: block;
             width: 152px;
             height: 146px;
+            font-family: 'Open Sans', sans-serif;
+
         }
 
         .end-services {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             display: inline-block;
             position: relative;
             top: -213px;
             left: 290px;
+            font-family: 'Open Sans', sans-serif;
+            margin-right: 40px;
+
+
         }
 
         .endlinks {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             display: inline-block;
             position: relative;
             top: -213px;
             left: 290px;
+            font-family: 'Open Sans', sans-serif;
+            margin-right: 40px;
         }
+        
 
         .endcontacts {
-            border: 2px solid palevioletred;
+            /* border: 2px solid palevioletred; */
+            display: inline-block;
+            position: relative;
+            top: -275px;
+            left: 290px;
+            font-family: 'Open Sans', sans-serif;
 
         }
 
         .endlist {
-            display: inline;
+            list-style: none;
+            padding: 0px;
+            font-family: 'Open Sans', sans-serif;
+
         }
+
+        .endlist li img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .endfollow {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: relative;
+            top: -147px;
+            left: 116px;
+            font-family: 'Open Sans', sans-serif;
+
+
+
+        }
+
+        .lower-logos li img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .lower-logos li {
+            display: contents;
+
+        }
+
+        .lower-logos {
+            padding: 0px 0px;
+        }
+
+        .footer {
+            display: inline-block;
+            position: absolute;
+            left: 160px;
+            /* border: 2px solid #298529; */
+            margin-top: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
     </style>
 </head>
 
@@ -393,7 +455,7 @@
     </div>
     <div class="end">
         <div class="end-logo">
-            <img src="logo.png" alt="logo"><br>
+            <img src="logo1.jpg" alt="logo"><br>
         </div>
         <div class="end-text">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi labore, fugit ea quam sapiente quos
@@ -401,7 +463,7 @@
         </div>
         <div class="end-services">
             <h4>SERVICES</h4>
-            <ul>
+            <ul class="endlist">
                 <li>Lorem</li>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum dolor</li>
@@ -413,7 +475,7 @@
         </div>
         <div class="endlinks">
             <h4>USEFUL LINKS</h4>
-            <ul>
+            <ul class="endlist">
                 <li>Lorem</li>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum dolor</li>
@@ -424,26 +486,35 @@
             </ul>
         </div>
         <div class="endcontacts">
-            <ul>
-                <li class="endlist">
-                    <div class="num1">
-                        <img src="phone icon.png" alt="phone"><a id="num1" href="#">+92(304)36-6719
-                        </a>
-                    </div>
+            <h4>CONTACT US</h4>
+            <ul class="endlist">
+                <li><img src="phone icon.png" alt="phone"><a id="num1" href="#">+92(304)36-6719
+                    </a>
                 </li>
-                <li class="endlist">
-                    <div class="num2">
-                        <img src="phone icon.png" alt="phone"><a id="num2" href="#">+92(304)36-6719
-                        </a>
-                    </div>
+                <li><img src="phone icon.png" alt="phone"><a id="num2" href="#">+92(304)36-6719
+                    </a>
                 </li>
-                <li class="endlist">
-                    <div class="email">
-                        <img src="email.png" alt="email"> <a id="email" href="#">email@website.com
-                        </a>
-                    </div>
-                </li>
+                <li><img src="email.png" alt="email"> <a id="email" href="#">email@website.com
+                    </a></li>
             </ul>
+        </div>
+        <div class="endfollow">
+            <h4>FOLLOW US</h4>
+            <ul class="lower-logos">
+                <li><a href="https://www.facebook.com/panacloud/" target="_blank"><img src="facebook logo.png"
+                            alt="facebook logo"></li></a>
+                <li><a href="https://twitter.com/Panacloud" target="_blank"><img src="twitter logo.png"
+                            alt="twitter logo"></li></a>
+                <li><a href="https://www.google.com/search?q=panacloud&sxsrf=AJOqlzVb-qZPyEI4ZV3P_6a8aHJxwpCtaQ:1674542496436&source=lnms&sa=X&ved=2ahUKEwjq96T1zN_8AhXLDuwKHe5dD80Q_AUoAHoECAIQAg&biw=1024&bih=636&dpr=1"
+                        target="_blank"><img src="google.png" alt="google logo"></li></a>
+                <li><a href="https://www.linkedin.com/company/panacloud-pvt-ltd/" target="_blank"><img
+                            src="linkedin logo.jpg" alt="linkedin logo"></li></a>
+                <li><a href="https://www.youtube.com/@panacloudserverlesssaastra6459/featured" target="_blank"><img
+                            src="youtube logo.png" alt="youtube logo"></li></a>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>&#169 PanaCloud 2019</p>
         </div>
     </div>
 </body>
