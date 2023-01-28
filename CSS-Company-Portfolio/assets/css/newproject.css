@@ -1,0 +1,43 @@
+.toptext {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    width: 75%;
+    position: relative;
+    left: 120px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-cont{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 395px;
+    margin: 10px auto;
+}
+.form-grp input{
+    height: 50px;
+    width: 222px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.lowerbtn{
+    width: 230px;
+    height: 50px;
+    font-size: 17px;
+    position: relative;
+    left: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #2fa52f;
+
+}
+.main{
+    background: url();
+}

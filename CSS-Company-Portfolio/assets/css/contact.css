@@ -1,0 +1,184 @@
+.toptext {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    width: 75%;
+    position: relative;
+    left: 120px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.location {
+    display: block;
+    margin-left: 245px;
+}
+
+.location img {
+    width: 20px;
+    height: 20px;
+}
+
+.location p {
+    display: inline-block;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 17px;
+}
+
+.num-email {
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.num1 img,
+.num2 img,
+.email img {
+    width: 25px;
+    height: 25px;
+}
+
+.num1 a,
+.num2 a,
+.email a {
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    position: relative;
+    bottom: 6px;
+}
+
+.num1 {
+    position: absolute;
+    left: 190px;
+
+}
+
+.num2 {
+    position: absolute;
+    left: 420px;
+}
+
+.email {
+    position: absolute;
+    left: 665px;
+}
+
+.map {
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    align-items: center;
+    height: 375px;
+}
+
+.end {
+    /* border: 2px solid green; */
+    padding: 50px 145px;
+    height: 280px;
+    background-color: #298529;
+    /* display: flex; */
+
+}
+
+.end-logo {
+    /* border: 2px solid blue; */
+    display: inline-block;
+}
+
+.end-logo img {
+    height: 55px;
+    width: 116px;
+}
+
+.end-text {
+    /* border: 2px solid purple; */
+    display: block;
+    width: 152px;
+    height: 146px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.end-services {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    top: -213px;
+    left: 290px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 40px;
+
+
+}
+
+.endlinks {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    top: -213px;
+    left: 290px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 40px;
+}
+
+
+.endcontacts {
+    /* border: 2px solid palevioletred; */
+    display: inline-block;
+    position: relative;
+    top: -275px;
+    left: 290px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.endlist {
+    list-style: none;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.endlist li img {
+    width: 25px;
+    height: 25px;
+}
+
+.endfollow {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    top: -147px;
+    left: 116px;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+.lower-logos li img {
+    width: 20px;
+    height: 20px;
+}
+
+.lower-logos li {
+    display: contents;
+
+}
+
+.lower-logos {
+    padding: 0px 0px;
+}
+
+.footer {
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    /* border: 2px solid #298529; */
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+#num1, #num2, #email{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: none;
+    color: black;
+
+}

@@ -1,0 +1,53 @@
+.toptext {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    width: 75%;
+    position: relative;
+    left: 120px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.mainbox {
+    /* border: 2px solid blueviolet; */
+    background-color: #626262;
+    height: 532px;
+}
+
+.lower-navbar {
+    /* border: 2px solid brown; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.lower-navbar li {
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+
+}
+
+.grid {
+    /* border: 2px solid mediumseagreen; */
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-rows: 1fr;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 20px 84px;
+
+}
+
+.item {
+    height: 148px;
+    width: 170px;
+    /* border: 2px solid black; */
+    
+}
+.item img{
+    height: 148px;
+    width: 170px;
+}
