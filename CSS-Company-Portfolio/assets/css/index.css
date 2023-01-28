@@ -16,7 +16,7 @@
 
 /* styling for mainbox */
 .main {
-    background-image: url(./assets/images/background.jpg);
+    background-image: url(background.jpg)
 }
 
 .main img {
