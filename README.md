@@ -14,3 +14,5 @@ CNC Batch 36
 [Chapter 10](https://github.com/Muhammad-Saifullah50/PIAIC-HTML-CSS-Assignments/blob/main/chapter10.html) <br> 
 [Chapter 11-12](https://github.com/Muhammad-Saifullah50/PIAIC-HTML-CSS-Assignments/blob/main/chapter-11%2C12.html) <br> 
 [Chapter 13](https://github.com/Muhammad-Saifullah50/PIAIC-HTML-CSS-Assignments/blob/main/chapter-13.html) <br>
+[HTML Final Assignment](https://github.com/Muhammad-Saifullah50/PIAIC-HTML-CSS-Assignments/tree/main/HTML-Final-Assignment) <br>
+[CSS Company Portfolio](https://github.com/Muhammad-Saifullah50/PIAIC-HTML-CSS-Assignments/tree/main/CSS-Company-Portfolio)
